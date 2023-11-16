@@ -17,3 +17,8 @@ Route::get('/', function () {
     $name = 'Laravel';
     return view('homepage', compact('name'));
 });
+
+Route::get('/about', function (){
+    $about = 'About Laravel';
+    return view('about', compact('about'));
+});

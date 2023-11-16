@@ -9,12 +9,12 @@
 <body>
     <header>
         <ul>
-            <li><a href="/about">About Laravel</a></li>
+            <li><a href="/">Homepage Laravel</a></li>
         </ul>
     </header>
 
     <main>
-        <h1>Hello {{ $name }}</h1>
+        <h1>{{ $about }}</h1>
     </main>
 </body>
 </html>
